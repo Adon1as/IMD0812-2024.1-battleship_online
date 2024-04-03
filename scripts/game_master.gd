@@ -32,7 +32,6 @@ func _ready():
 		sum += (s*count)
 		count += 1
 
-
 	player_life = sum
 	enemy_life = sum
 	enemyHP.text = "HP: " + str(sum)
@@ -153,15 +152,15 @@ func trade_hit(tile):
 		ws.get_hit()
 		return true
 
-func draw_hit(tile,p):
-	if battle_mode:
+func draw_hit(tile,ply):
+	if battle_mode and tile.get_child(0).text =='':
 		if tile.status == 0:
 			tile.get_child(0).text="X"
 			tile.reload(6)
 		elif 1 <= tile.status && tile.status <= 5:
 			tile.get_child(0).text="O"
 			tile.reload(7)
-			if p:
+			if ply:
 				take_damege()
 			else:
 				deal_damege()

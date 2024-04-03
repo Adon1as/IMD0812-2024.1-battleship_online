@@ -87,6 +87,5 @@ func json_generatior(type,subject, data='', round_status = ''):
 	return JSON.stringify(dictionary)
 
 func to_close():
-	await get_tree().create_timer(2.0).timeout
+	await get_tree().create_timer(10.0).timeout
 	socket.close()
-
