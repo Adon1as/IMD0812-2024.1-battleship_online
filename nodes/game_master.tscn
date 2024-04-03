@@ -1,0 +1,139 @@
+[gd_scene load_steps=6 format=3 uid="uid://mi6lccim8xph"]
+
+[ext_resource type="Script" path="res://scripts/game_master.gd" id="1_lui20"]
+[ext_resource type="PackedScene" uid="uid://byql3dodkby3e" path="res://nodes/grid.tscn" id="2_yhsdw"]
+[ext_resource type="PackedScene" uid="uid://b5s0rx77uosf8" path="res://nodes/web_socket_peer.tscn" id="3_oj0fk"]
+
+[sub_resource type="Theme" id="Theme_panrw"]
+Label/font_sizes/font_size = 16
+
+[sub_resource type="Theme" id="Theme_j0jg5"]
+Label/colors/font_color = Color(1, 0.223529, 0, 1)
+Label/colors/font_outline_color = Color(0, 0.0313726, 1, 1)
+Label/font_sizes/font_size = 50
+
+[node name="GameMaster" type="Node"]
+script = ExtResource("1_lui20")
+
+[node name="Grid1" parent="." instance=ExtResource("2_yhsdw")]
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 13.0
+offset_bottom = 13.0
+
+[node name="Grid2" parent="." instance=ExtResource("2_yhsdw")]
+offset_left = 355.0
+offset_top = 16.0
+offset_right = 355.0
+offset_bottom = 16.0
+
+[node name="WebSocketPeer" parent="." instance=ExtResource("3_oj0fk")]
+
+[node name="Buttons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 301.0
+offset_top = 314.0
+offset_right = 341.0
+offset_bottom = 354.0
+
+[node name="Reset" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = -286.0
+offset_top = -22.0
+offset_right = -232.0
+offset_bottom = 9.0
+text = "RESET"
+
+[node name="Start" type="Button" parent="Buttons"]
+layout_mode = 0
+offset_left = -9.0
+offset_top = -168.0
+offset_right = 47.0
+offset_bottom = -137.0
+text = "START"
+
+[node name="ShipsUI" type="HBoxContainer" parent="."]
+custom_minimum_size = Vector2(1, 1)
+offset_left = 77.0
+offset_top = 286.0
+offset_right = 286.0
+offset_bottom = 329.0
+size_flags_vertical = 4
+
+[node name="Ship1" type="Label" parent="ShipsUI"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme = SubResource("Theme_panrw")
+theme_override_colors/font_color = Color(0, 0.392157, 0, 1)
+text = "0"
+
+[node name="Ship2" type="Label" parent="ShipsUI"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_colors/font_color = Color(1, 0.647059, 0, 1)
+text = "0"
+
+[node name="Ship3" type="Label" parent="ShipsUI"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_colors/font_color = Color(0, 0, 1, 1)
+text = "0"
+
+[node name="Ship4" type="Label" parent="ShipsUI"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "0"
+
+[node name="Ship5" type="Label" parent="ShipsUI"]
+layout_mode = 2
+size_flags_horizontal = 6
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+text = "0"
+
+[node name="enemyHP" type="Label" parent="."]
+offset_left = 479.0
+offset_top = 330.0
+offset_right = 506.0
+offset_bottom = 353.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+text = "HP:"
+
+[node name="playerHP" type="Label" parent="."]
+offset_left = 141.0
+offset_top = 330.0
+offset_right = 168.0
+offset_bottom = 353.0
+theme_override_colors/font_color = Color(1, 0.752941, 0.796078, 1)
+text = "HP:"
+
+[node name="mainLabel" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.482353, 0.482353, 0.482353, 0.862745)
+
+[node name="label" type="Label" parent="mainLabel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.5
+offset_top = -109.5
+offset_right = 87.5
+offset_bottom = 109.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 1
+theme = SubResource("Theme_j0jg5")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Buttons/Reset" to="." method="_on_reset_pressed"]
+[connection signal="pressed" from="Buttons/Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Buttons/Start" to="WebSocketPeer" method="_on_start_pressed"]

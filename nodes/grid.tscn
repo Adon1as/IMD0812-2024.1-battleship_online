@@ -1,0 +1,509 @@
+[gd_scene load_steps=4 format=3 uid="uid://byql3dodkby3e"]
+
+[ext_resource type="Script" path="res://scripts/grid.gd" id="1_db20e"]
+[ext_resource type="Script" path="res://scripts/grid_container.gd" id="2_1mq4x"]
+[ext_resource type="PackedScene" uid="uid://b820swdht3lgx" path="res://nodes/tile.tscn" id="3_sfxry"]
+
+[node name="Grid" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_db20e")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 240.0
+offset_bottom = 240.0
+theme_override_constants/h_separation = 1
+theme_override_constants/v_separation = 1
+columns = 11
+script = ExtResource("2_1mq4x")
+
+[node name="Tile1" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile2" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile3" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile4" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile5" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile6" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile7" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile8" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile9" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile10" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile11" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile12" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile13" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile14" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile15" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile16" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile17" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile18" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile19" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile20" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile21" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile22" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile23" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile24" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile25" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile26" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile27" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile28" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile29" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile30" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile31" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile32" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile33" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile34" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile35" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile36" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile37" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile38" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile39" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile40" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile41" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile42" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile43" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile44" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile45" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile46" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile47" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile48" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile49" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile50" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile51" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile52" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile53" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Tile54" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile55" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile56" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile57" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile58" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile59" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile60" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile61" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile62" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile63" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile64" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile65" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile66" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile67" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile68" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile69" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile70" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile71" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile72" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile73" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile74" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile75" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile76" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile77" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile78" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile79" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile80" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile81" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile82" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile83" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile84" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile85" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile86" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile87" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile88" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile89" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile90" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile91" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile92" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile93" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile94" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile95" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile96" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile97" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile98" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile99" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile100" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile101" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile102" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile103" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile104" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile105" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile106" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile107" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile108" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile109" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile110" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile111" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile112" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile113" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile114" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile115" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile116" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile117" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile118" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile119" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile120" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile121" parent="GridContainer" instance=ExtResource("3_sfxry")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Tile122" parent="GridContainer" instance=ExtResource("3_sfxry")]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4

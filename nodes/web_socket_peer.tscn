@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5s0rx77uosf8"]
+
+[ext_resource type="Script" path="res://scripts/web_socket_peer.gd" id="1_quq4h"]
+
+[node name="WebSocketPeer" type="Node2D"]
+script = ExtResource("1_quq4h")
