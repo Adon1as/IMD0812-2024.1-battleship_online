@@ -7,6 +7,7 @@ Abra ao menos 2 [clientes](https://github.com/Adon1as/IMD0812-2024.1-battleship_
 
 
 **COMANDOS**:  
-Para colocar uma embarcação é preciso selecionar um ladrilho e digitar um valor de 1 a 5.  
+Para colocar uma embarcação é preciso selecionar um ladrilho valido e digitar um valor de 1 a 5.  
+*A embarcação só será gerada se tive o epasço valido para ela.*  
 Após colocar todas as embarcações comece o modo batalha no botão START.  
 Caso precise realocar as embarcações use o botão RESET. 
